@@ -100,3 +100,27 @@ function getWeatherCondition(code: number): string {
     };
     return conditions[code] || "Unknown";
 }
+
+// const getFiles = async ({ files }: { files: string[] }) => {
+//     return {
+//         files,
+//     };
+// };
+
+// export const getFilesTool = createTool({
+//     id: "get-files-tool",
+//     description:
+//         "Get the important files in a directory that will then be used by the agent generate a README.md",
+//     inputSchema: z.object({
+//         input: z.array(z.string()).describe("List of files in the project"),
+//     }),
+//     outputSchema: z.object({
+//         files: z
+//             .array(z.string())
+//             .max(5)
+//             .describe("List of files to be used to generate a README.md"),
+//     }),
+//     execute: async ({ context }) => {
+//         return await getFiles(context.);
+//     },
+// });

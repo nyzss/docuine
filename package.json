@@ -14,9 +14,11 @@
     "type": "module",
     "dependencies": {
         "@ai-sdk/openai": "^1.1.15",
-        "@mastra/core": "^0.4.2",
+        "@mastra/core": "0.4.3-alpha.1",
+        "@types/ignore-walk": "^4.0.3",
         "dotenv": "^16.4.7",
-        "mastra": "^0.2.6",
+        "ignore-walk": "^7.0.0",
+        "mastra": "0.2.7-alpha.1",
         "zod": "^3.24.2"
     },
     "devDependencies": {
