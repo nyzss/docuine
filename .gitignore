@@ -1,4 +1,10 @@
 target
 .vscode
-
 .env
+output.txt
+node_modules
+dist
+.mastra
+.env.development
+*.db
+.DS_Store
